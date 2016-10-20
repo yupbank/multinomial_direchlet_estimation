@@ -90,7 +90,21 @@ def main():
     rank_match(X_test, X_train, 'history')
      
     
-
+"""
+result :
+50 category, 3200 customer, 5000 maximum purchase per customer
+difference in em_p: 1.82147722742 difference in em_alpha: 1.15036572615
+difference in mle_p: 1.84252159456 difference in mle_alpha: 0.0543983382856
+em matches within top 10 customer for each category
+cate_0: 0.100, cate_1: 0.000, cate_2: 0.100, cate_3: 0.000, cate_4: 0.000, cate_5: 0.000, cate_6: 0.000, cate_7: 0.000, cate_8: 0.000, cate_9: 0.000, cate_10: 0.000, cate_11: 0.000, cate_12: 0.000, cate_13: 0.000, cate_14: 0.000, cate_15: 0.000, cate_16: 0.000, cate_17: 0.100, cate_18: 0.000, cate_19: 0.000, cate_20: 0.200, cate_21: 0.000, cate_22: 0.000, cate_23: 0.000, cate_24: 0.000, cate_25: 0.000, cate_26: 0.000, cate_27: 0.100, cate_28: 0.000, cate_29: 0.000, cate_30: 0.000, cate_31: 0.000, cate_32: 0.000, cate_33: 0.000, cate_34: 0.000, cate_35: 0.000, cate_36: 0.000, cate_37: 0.100, cate_38: 0.100, cate_39: 0.000, cate_40: 0.100, cate_41: 0.000, cate_42: 0.000, cate_43: 0.100, cate_44: 0.000, cate_45: 0.000, cate_46: 0.000, cate_47: 0.000, cate_48: 0.000, cate_49: 0.000,
+em, total_hit rate: 0.02
+mle matches within top 10 customer for each category
+cate_0: 0.000, cate_1: 0.200, cate_2: 0.100, cate_3: 0.100, cate_4: 0.100, cate_5: 0.000, cate_6: 0.000, cate_7: 0.100, cate_8: 0.000, cate_9: 0.000, cate_10: 0.100, cate_11: 0.000, cate_12: 0.000, cate_13: 0.000, cate_14: 0.100, cate_15: 0.000, cate_16: 0.000, cate_17: 0.000, cate_18: 0.000, cate_19: 0.000, cate_20: 0.100, cate_21: 0.000, cate_22: 0.100, cate_23: 0.000, cate_24: 0.000, cate_25: 0.000, cate_26: 0.000, cate_27: 0.000, cate_28: 0.000, cate_29: 0.000, cate_30: 0.000, cate_31: 0.000, cate_32: 0.000, cate_33: 0.100, cate_34: 0.000, cate_35: 0.200, cate_36: 0.100, cate_37: 0.000, cate_38: 0.100, cate_39: 0.000, cate_40: 0.100, cate_41: 0.000, cate_42: 0.000, cate_43: 0.200, cate_44: 0.000, cate_45: 0.000, cate_46: 0.000, cate_47: 0.000, cate_48: 0.000, cate_49: 0.300,
+mle, total_hit rate: 0.042
+history matches within top 10 customer for each category
+cate_0: 0.000, cate_1: 0.000, cate_2: 0.000, cate_3: 0.100, cate_4: 0.000, cate_5: 0.000, cate_6: 0.600, cate_7: 0.100, cate_8: 0.600, cate_9: 0.200, cate_10: 0.000, cate_11: 0.600, cate_12: 0.000, cate_13: 0.000, cate_14: 0.000, cate_15: 0.000, cate_16: 0.000, cate_17: 0.000, cate_18: 0.000, cate_19: 0.100, cate_20: 0.000, cate_21: 0.600, cate_22: 0.000, cate_23: 0.100, cate_24: 0.000, cate_25: 0.000, cate_26: 0.000, cate_27: 0.400, cate_28: 0.100, cate_29: 0.000, cate_30: 0.000, cate_31: 0.200, cate_32: 0.000, cate_33: 0.100, cate_34: 0.900, cate_35: 0.000, cate_36: 0.000, cate_37: 0.100, cate_38: 0.000, cate_39: 0.000, cate_40: 0.000, cate_41: 0.000, cate_42: 0.100, cate_43: 0.000, cate_44: 0.800, cate_45: 0.000, cate_46: 0.100, cate_47: 0.900, cate_48: 0.000, cate_49: 0.000,
+history, total_hit rate: 0.134
+"""
 
 
 if __name__ == "__main__":
